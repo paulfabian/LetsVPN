@@ -1,12 +1,11 @@
 # LetsVPN Dashboard
 This project was developed React Umijs.
 
-```sh
-    # Install the dependencies
+# Install the dependencies
+```sh    
     yarn install
 ```
-
-```sh
-    # Run this
+# To start the project, run:
+```sh    
     yarn start
 ```
