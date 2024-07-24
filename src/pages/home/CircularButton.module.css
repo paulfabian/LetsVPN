@@ -1,0 +1,24 @@
+.circularButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rotatingCircle {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    /* background-color: red; */
+    animation: rotate 2s linear infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+  
